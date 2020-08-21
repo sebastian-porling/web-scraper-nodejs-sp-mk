@@ -19,11 +19,13 @@ module.exports.main = async () => {
         );
         const response = await getPresidents();
         const presidents = await scrapePresidents(response.data);
-        throbber.succeed("Done fetching president list!\n")
-                .start("Fetching each presidents information!\n")
+        throbber
+            .succeed("Done fetching president list!\n")
+            .start("Fetching each presidents information!\n");
         await addPresidentInfromation(presidents);
-        throbber.succeed("All president information is fetched!\n")
-                .start("Writing to presidents.json...\n");
+        throbber
+            .succeed("All president information is fetched!\n")
+            .start("Writing to presidents.json...\n");
         await writeJson("presidents.json", output);
         throbber.succeed("Done writing, check presidents.json!");
     } catch (err) {
@@ -34,9 +36,9 @@ module.exports.main = async () => {
 const addPresidentInfromation = async (presidents) => {
     await presidents.reduce(async (promise, president) => {
         const response = await getPresident(president.link);
-        throbber.start("Fetced " + president.link + "\n")
+        throbber.start("Fetched " + president.link + "\n");
         const { born, died, signature } = await scrapePresident(response.data);
         output.push(await Object.assign(president, { born, died, signature }));
         await promise;
     }, Promise.resolve());
-}
+};
