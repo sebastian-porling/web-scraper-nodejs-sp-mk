@@ -33,12 +33,16 @@ module.exports.main = async () => {
     }
 };
 
+/**
+ * Adds information about each president.
+ * @param presidents 
+ */
 const addPresidentInfromation = async (presidents) => {
     await presidents.reduce(async (promise, president) => {
         const response = await getPresident(president.link);
         throbber.start("Fetched " + president.link + "\n");
-        const { born, died, signature } = await scrapePresident(response.data);
-        output.push(await Object.assign(president, { born, died, signature }));
+        const presidentInfo = await scrapePresident(response.data);
+        output.push(await Object.assign(president, presidentInfo));
         await promise;
     }, Promise.resolve());
 };
