@@ -26,6 +26,7 @@ module.exports.main = async () => {
         throbber
             .succeed("All president information is fetched!\n")
             .start("Writing to presidents.json...\n");
+        output.sort((first, second) => first.number - second.number);
         await writeJson("presidents.json", output);
         throbber.succeed("Done writing, check presidents.json!");
     } catch (err) {
