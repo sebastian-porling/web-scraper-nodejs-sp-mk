@@ -35,7 +35,8 @@ const addPresidentInfromation = async (presidents) => {
     await presidents.reduce(async (promise, president) => {
         const response = await getPresident(president.link);
         throbber.start("Fetced " + president.link + "\n")
-        const { born, died } = await scrapePresident(response.data);
-        output.push(await Object.assign(president, { born, died }));
+        const { born, died, signature } = await scrapePresident(response.data);
+        output.push(await Object.assign(president, { born, died, signature }));
+        await promise;
     }, Promise.resolve());
 }

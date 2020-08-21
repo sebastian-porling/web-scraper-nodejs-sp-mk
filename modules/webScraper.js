@@ -11,11 +11,12 @@ module.exports.scrapePresidents = async (html) => {
     const tableBody = $("tbody")[1];
     const rows = $("tr:has(td:has(a:has(img)))", tableBody);
     $(rows).each(async (i, row) => {
+        const number = parseInt($("a", $("td", row)[0]).text());
         const name = $("b", $("td", row)[3]).text();
         const img = $("a", $("td", row)[2]).attr("href");
         const link = $("a", $("td", row)[3]).attr("href");
         const party = $("a", $("td", row)[5]).text();
-        const json = { name, img, link, party };
+        const json = { number, name, img, link, party };
         presidents.push(json);
     });
     return presidents;
@@ -30,5 +31,7 @@ module.exports.scrapePresident = async (html) => {
     const born = $(".bday").text();
     const diedTr = $("tr:has(th:contains(Died))");
     const died = $("span", diedTr).text();
-    return { born, died };
+    const signatureTr = $("tr:has(th:contains(Signature))");
+    const signature = $("a", signatureTr).attr("href");
+    return { born, died, signature };
 };
