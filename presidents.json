@@ -1,1 +1,362 @@
-{"presidents":[{"name":"James Madison","img":"/wiki/File:James_Madison.jpg","link":"/wiki/James_Madison","party":"Democratic-Republican","born":"1751-03-16","died":"(1836-06-28)"},{"name":"George Washington","img":"/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg","link":"/wiki/George_Washington","party":"","born":"1732-02-22","died":"December 14, 1799(1799-12-14) (aged 67)(1799-12-14)"},{"name":"John Adams","img":"/wiki/File:John_Adams,_Gilbert_Stuart,_c1800_1815.jpg","link":"/wiki/John_Adams","party":"Federalist","born":"1735-10-30","died":"(1826-07-04)"},{"name":"Thomas Jefferson","img":"/wiki/File:Thomas_Jefferson_by_Rembrandt_Peale,_1800.jpg","link":"/wiki/Thomas_Jefferson","party":"Democratic-Republican","born":"1743-04-13","died":"(1826-07-04)"},{"name":"John Quincy Adams","img":"/wiki/File:JQA_Photo.tif","link":"/wiki/John_Quincy_Adams","party":"Democratic-Republican","born":"1767-07-11","died":"(1848-02-23)"},{"name":"James Monroe","img":"/wiki/File:James_Monroe_White_House_portrait_1819.jpg","link":"/wiki/James_Monroe","party":"Democratic-Republican","born":"1758-04-28","died":"(1831-07-04)"},{"name":"Martin Van Buren","img":"/wiki/File:Martin_Van_Buren_edit.jpg","link":"/wiki/Martin_Van_Buren","party":"Democratic","born":"1782-12-05","died":"(1862-07-24)"},{"name":"Andrew Jackson","img":"/wiki/File:Andrew_jackson_head.jpg","link":"/wiki/Andrew_Jackson","party":"Democratic","born":"1767-03-15","died":"(1845-06-08)"},{"name":"William Henry Harrison","img":"/wiki/File:William_Henry_Harrison_daguerreotype_edit.jpg","link":"/wiki/William_Henry_Harrison","party":"Whig","born":"1773-02-09","died":"(1841-04-04)"},{"name":"John Tyler","img":"/wiki/File:John_Tyler,_Jr.jpg","link":"/wiki/John_Tyler","party":"Whig[i]","born":"1790-03-29","died":"(1862-01-18)"},{"name":"James K. Polk","img":"/wiki/File:JKP.jpg","link":"/wiki/James_K._Polk","party":"Democratic","born":"1795-11-02","died":"(1849-06-15)"},{"name":"Zachary Taylor","img":"/wiki/File:Zachary_Taylor_restored_and_cropped.jpg","link":"/wiki/Zachary_Taylor","party":"Whig","born":"1784-11-24","died":"(1850-07-09)"},{"name":"Millard Fillmore","img":"/wiki/File:Millard_Fillmore_by_Brady_Studio_1855-65-crop.jpg","link":"/wiki/Millard_Fillmore","party":"Whig","born":"1800-01-07","died":"(1874-03-08)"},{"name":"Franklin Pierce","img":"/wiki/File:Mathew_Brady_-_Franklin_Pierce_-_alternate_crop_(cropped).jpg","link":"/wiki/Franklin_Pierce","party":"Democratic","born":"1804-11-23","died":"(1869-10-08)"},{"name":"Abraham Lincoln","img":"/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg","link":"/wiki/Abraham_Lincoln","party":"Republican","born":"1809-02-12","died":"(1865-04-15)"},{"name":"James Buchanan","img":"/wiki/File:James_Buchanan.jpg","link":"/wiki/James_Buchanan","party":"Democratic","born":"1791-04-23","died":"(1868-06-01)"},{"name":"Ulysses S. Grant","img":"/wiki/File:Ulysses_S_Grant_by_Brady_c1870-restored.jpg","link":"/wiki/Ulysses_S._Grant","party":"Republican","born":"1822-04-27","died":"(1885-07-23)"},{"name":"Andrew Johnson","img":"/wiki/File:Andrew_Johnson_photo_portrait_head_and_shoulders,_c1870-1880-Edit1.jpg","link":"/wiki/Andrew_Johnson","party":"National Union[l]","born":"1808-12-29","died":"(1875-07-31)"},{"name":"Rutherford B. Hayes","img":"/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg","link":"/wiki/Rutherford_B._Hayes","party":"Republican","born":"1822-10-04","died":"(1893-01-17)"},{"name":"James A. Garfield","img":"/wiki/File:James_Abram_Garfield,_photo_portrait_seated.jpg","link":"/wiki/James_A._Garfield","party":"Republican","born":"1831-11-19","died":"September 19, 1881(1881-09-19) (aged 49)(1881-09-19)"},{"name":"Chester A. Arthur","img":"/wiki/File:Chester_Alan_Arthur.jpg","link":"/wiki/Chester_A._Arthur","party":"Republican","born":"1829-10-05","died":"(1886-11-18)"},{"name":"Grover Cleveland","img":"/wiki/File:Grover_Cleveland_-_NARA_-_518139_(cropped).jpg","link":"/wiki/Grover_Cleveland","party":"Democratic","born":"1837-03-18","died":"(1908-06-24)"},{"name":"Benjamin Harrison","img":"/wiki/File:Benjamin_Harrison,_head_and_shoulders_bw_photo,_1896.jpg","link":"/wiki/Benjamin_Harrison","party":"Republican","born":"1833-08-20","died":"(1901-03-13)"},{"name":"Grover Cleveland","img":"/wiki/File:Grover_Cleveland_-_NARA_-_518139_(cropped).jpg","link":"/wiki/Grover_Cleveland","party":"Democratic","born":"1837-03-18","died":"(1908-06-24)"},{"name":"William Howard Taft","img":"/wiki/File:William_Howard_Taft,_head-and-shoulders_portrait,_facing_front.jpg","link":"/wiki/William_Howard_Taft","party":"Republican","born":"1857-09-15","died":"(1930-03-08)"},{"name":"Calvin Coolidge","img":"/wiki/File:Calvin_Coolidge_cph.3g10777_(cropped).jpg","link":"/wiki/Calvin_Coolidge","party":"Republican","born":"1872-07-04","died":"(1933-01-05)"},{"name":"Herbert Hoover","img":"/wiki/File:President_Hoover_portrait.jpg","link":"/wiki/Herbert_Hoover","party":"Republican","born":"1874-08-10","died":"(1964-10-20)"},{"name":"Harry S. Truman","img":"/wiki/File:TRUMAN_58-766-06_CROPPED.jpg","link":"/wiki/Harry_S._Truman","party":"Democratic","born":"1884-05-08","died":"December 26, 1972(1972-12-26) (aged 88)(1972-12-26)"},{"name":"William McKinley","img":"/wiki/File:Mckinley.jpg","link":"/wiki/William_McKinley","party":"Republican","born":"1843-01-29","died":"September 14, 1901(1901-09-14) (aged 58)(1901-09-14)"},{"name":"Theodore Roosevelt","img":"/wiki/File:President_Roosevelt_-_Pach_Bros.jpg","link":"/wiki/Theodore_Roosevelt","party":"Republican","born":"1858-10-27","died":"(1919-01-06)"},{"name":"Woodrow Wilson","img":"/wiki/File:Woodrow_Wilson-H%26E.jpg","link":"/wiki/Woodrow_Wilson","party":"Democratic","born":"1856-12-28","died":"(1924-02-03)"},{"name":"Warren G. Harding","img":"/wiki/File:Warren_G_Harding-Harris_%26_Ewing.jpg","link":"/wiki/Warren_G._Harding","party":"Republican","born":"1865-11-02","died":"(1923-08-02)"},{"name":"Franklin D. Roosevelt","img":"/wiki/File:FDR_in_1933_(1).jpg","link":"/wiki/Franklin_D._Roosevelt","party":"Democratic","born":"1882-01-30","died":"(1945-04-12)"},{"name":"Dwight D. Eisenhower","img":"/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg","link":"/wiki/Dwight_D._Eisenhower","party":"Republican","born":"1890-10-14","died":"(1969-03-28)"},{"name":"John F. Kennedy","img":"/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg","link":"/wiki/John_F._Kennedy","party":"Democratic","born":"1917-05-29","died":"November 22, 1963(1963-11-22) (aged 46)(1963-11-22)"},{"name":"Lyndon B. Johnson","img":"/wiki/File:37_Lyndon_Johnson_3x4.jpg","link":"/wiki/Lyndon_B._Johnson","party":"Democratic","born":"1908-08-27","died":"(1973-01-22)"},{"name":"Richard Nixon","img":"/wiki/File:Richard_Nixon_presidential_portrait.jpg","link":"/wiki/Richard_Nixon","party":"Republican","born":"1913-01-09","died":"(1994-04-22)New York City"},{"name":"Gerald Ford","img":"/wiki/File:Gerald_Ford_presidential_portrait.jpg","link":"/wiki/Gerald_Ford","party":"Republican","born":"1913-07-14","died":"December 26, 2006(2006-12-26) (aged 93)(2006-12-26)"},{"name":"George H. W. Bush","img":"/wiki/File:George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait_(cropped).jpg","link":"/wiki/George_H._W._Bush","party":"Republican","born":"1924-06-12","died":"(2018-11-30)"},{"name":"Jimmy Carter","img":"/wiki/File:JimmyCarterPortrait2.jpg","link":"/wiki/Jimmy_Carter","party":"Democratic","born":"1924-10-01","died":""},{"name":"Ronald Reagan","img":"/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg","link":"/wiki/Ronald_Reagan","party":"Republican","born":"1911-02-06","died":"(2004-06-05)"},{"name":"Bill Clinton","img":"/wiki/File:Bill_Clinton.jpg","link":"/wiki/Bill_Clinton","party":"Democratic","born":"1946-08-19","died":""},{"name":"George W. Bush","img":"/wiki/File:George-W-Bush.jpeg","link":"/wiki/George_W._Bush","party":"Republican","born":"1946-07-06","died":""},{"name":"Barack Obama","img":"/wiki/File:Official_portrait_of_Barack_Obama.jpg","link":"/wiki/Barack_Obama","party":"Democratic","born":"1961-08-04","died":""},{"name":"Donald Trump","img":"/wiki/File:Donald_Trump_official_portrait.jpg","link":"/wiki/Donald_Trump","party":"Republican","born":"1946-06-14","died":""}]}
+[
+    {
+        "name": "James Madison",
+        "img": "/wiki/File:James_Madison.jpg",
+        "link": "/wiki/James_Madison",
+        "party": "Democratic-Republican",
+        "born": "1751-03-16",
+        "died": "(1836-06-28)"
+    },
+    {
+        "name": "George Washington",
+        "img": "/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg",
+        "link": "/wiki/George_Washington",
+        "party": "",
+        "born": "1732-02-22",
+        "died": "December 14, 1799(1799-12-14) (aged 67)(1799-12-14)"
+    },
+    {
+        "name": "John Adams",
+        "img": "/wiki/File:John_Adams,_Gilbert_Stuart,_c1800_1815.jpg",
+        "link": "/wiki/John_Adams",
+        "party": "Federalist",
+        "born": "1735-10-30",
+        "died": "(1826-07-04)"
+    },
+    {
+        "name": "Thomas Jefferson",
+        "img": "/wiki/File:Thomas_Jefferson_by_Rembrandt_Peale,_1800.jpg",
+        "link": "/wiki/Thomas_Jefferson",
+        "party": "Democratic-Republican",
+        "born": "1743-04-13",
+        "died": "(1826-07-04)"
+    },
+    {
+        "name": "James Monroe",
+        "img": "/wiki/File:James_Monroe_White_House_portrait_1819.jpg",
+        "link": "/wiki/James_Monroe",
+        "party": "Democratic-Republican",
+        "born": "1758-04-28",
+        "died": "(1831-07-04)"
+    },
+    {
+        "name": "John Quincy Adams",
+        "img": "/wiki/File:JQA_Photo.tif",
+        "link": "/wiki/John_Quincy_Adams",
+        "party": "Democratic-Republican",
+        "born": "1767-07-11",
+        "died": "(1848-02-23)"
+    },
+    {
+        "name": "Martin Van Buren",
+        "img": "/wiki/File:Martin_Van_Buren_edit.jpg",
+        "link": "/wiki/Martin_Van_Buren",
+        "party": "Democratic",
+        "born": "1782-12-05",
+        "died": "(1862-07-24)"
+    },
+    {
+        "name": "Andrew Jackson",
+        "img": "/wiki/File:Andrew_jackson_head.jpg",
+        "link": "/wiki/Andrew_Jackson",
+        "party": "Democratic",
+        "born": "1767-03-15",
+        "died": "(1845-06-08)"
+    },
+    {
+        "name": "William Henry Harrison",
+        "img": "/wiki/File:William_Henry_Harrison_daguerreotype_edit.jpg",
+        "link": "/wiki/William_Henry_Harrison",
+        "party": "Whig",
+        "born": "1773-02-09",
+        "died": "(1841-04-04)"
+    },
+    {
+        "name": "John Tyler",
+        "img": "/wiki/File:John_Tyler,_Jr.jpg",
+        "link": "/wiki/John_Tyler",
+        "party": "Whig[i]",
+        "born": "1790-03-29",
+        "died": "(1862-01-18)"
+    },
+    {
+        "name": "James K. Polk",
+        "img": "/wiki/File:JKP.jpg",
+        "link": "/wiki/James_K._Polk",
+        "party": "Democratic",
+        "born": "1795-11-02",
+        "died": "(1849-06-15)"
+    },
+    {
+        "name": "Zachary Taylor",
+        "img": "/wiki/File:Zachary_Taylor_restored_and_cropped.jpg",
+        "link": "/wiki/Zachary_Taylor",
+        "party": "Whig",
+        "born": "1784-11-24",
+        "died": "(1850-07-09)"
+    },
+    {
+        "name": "Millard Fillmore",
+        "img": "/wiki/File:Millard_Fillmore_by_Brady_Studio_1855-65-crop.jpg",
+        "link": "/wiki/Millard_Fillmore",
+        "party": "Whig",
+        "born": "1800-01-07",
+        "died": "(1874-03-08)"
+    },
+    {
+        "name": "Franklin Pierce",
+        "img": "/wiki/File:Mathew_Brady_-_Franklin_Pierce_-_alternate_crop_(cropped).jpg",
+        "link": "/wiki/Franklin_Pierce",
+        "party": "Democratic",
+        "born": "1804-11-23",
+        "died": "(1869-10-08)"
+    },
+    {
+        "name": "Abraham Lincoln",
+        "img": "/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg",
+        "link": "/wiki/Abraham_Lincoln",
+        "party": "Republican",
+        "born": "1809-02-12",
+        "died": "(1865-04-15)"
+    },
+    {
+        "name": "James Buchanan",
+        "img": "/wiki/File:James_Buchanan.jpg",
+        "link": "/wiki/James_Buchanan",
+        "party": "Democratic",
+        "born": "1791-04-23",
+        "died": "(1868-06-01)"
+    },
+    {
+        "name": "Andrew Johnson",
+        "img": "/wiki/File:Andrew_Johnson_photo_portrait_head_and_shoulders,_c1870-1880-Edit1.jpg",
+        "link": "/wiki/Andrew_Johnson",
+        "party": "National Union[l]",
+        "born": "1808-12-29",
+        "died": "(1875-07-31)"
+    },
+    {
+        "name": "Ulysses S. Grant",
+        "img": "/wiki/File:Ulysses_S_Grant_by_Brady_c1870-restored.jpg",
+        "link": "/wiki/Ulysses_S._Grant",
+        "party": "Republican",
+        "born": "1822-04-27",
+        "died": "(1885-07-23)"
+    },
+    {
+        "name": "James A. Garfield",
+        "img": "/wiki/File:James_Abram_Garfield,_photo_portrait_seated.jpg",
+        "link": "/wiki/James_A._Garfield",
+        "party": "Republican",
+        "born": "1831-11-19",
+        "died": "September 19, 1881(1881-09-19) (aged 49)(1881-09-19)"
+    },
+    {
+        "name": "Rutherford B. Hayes",
+        "img": "/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg",
+        "link": "/wiki/Rutherford_B._Hayes",
+        "party": "Republican",
+        "born": "1822-10-04",
+        "died": "(1893-01-17)"
+    },
+    {
+        "name": "Chester A. Arthur",
+        "img": "/wiki/File:Chester_Alan_Arthur.jpg",
+        "link": "/wiki/Chester_A._Arthur",
+        "party": "Republican",
+        "born": "1829-10-05",
+        "died": "(1886-11-18)"
+    },
+    {
+        "name": "Grover Cleveland",
+        "img": "/wiki/File:Grover_Cleveland_-_NARA_-_518139_(cropped).jpg",
+        "link": "/wiki/Grover_Cleveland",
+        "party": "Democratic",
+        "born": "1837-03-18",
+        "died": "(1908-06-24)"
+    },
+    {
+        "name": "Grover Cleveland",
+        "img": "/wiki/File:Grover_Cleveland_-_NARA_-_518139_(cropped).jpg",
+        "link": "/wiki/Grover_Cleveland",
+        "party": "Democratic",
+        "born": "1837-03-18",
+        "died": "(1908-06-24)"
+    },
+    {
+        "name": "William McKinley",
+        "img": "/wiki/File:Mckinley.jpg",
+        "link": "/wiki/William_McKinley",
+        "party": "Republican",
+        "born": "1843-01-29",
+        "died": "September 14, 1901(1901-09-14) (aged 58)(1901-09-14)"
+    },
+    {
+        "name": "Theodore Roosevelt",
+        "img": "/wiki/File:President_Roosevelt_-_Pach_Bros.jpg",
+        "link": "/wiki/Theodore_Roosevelt",
+        "party": "Republican",
+        "born": "1858-10-27",
+        "died": "(1919-01-06)"
+    },
+    {
+        "name": "William Howard Taft",
+        "img": "/wiki/File:William_Howard_Taft,_head-and-shoulders_portrait,_facing_front.jpg",
+        "link": "/wiki/William_Howard_Taft",
+        "party": "Republican",
+        "born": "1857-09-15",
+        "died": "(1930-03-08)"
+    },
+    {
+        "name": "Woodrow Wilson",
+        "img": "/wiki/File:Woodrow_Wilson-H%26E.jpg",
+        "link": "/wiki/Woodrow_Wilson",
+        "party": "Democratic",
+        "born": "1856-12-28",
+        "died": "(1924-02-03)"
+    },
+    {
+        "name": "Warren G. Harding",
+        "img": "/wiki/File:Warren_G_Harding-Harris_%26_Ewing.jpg",
+        "link": "/wiki/Warren_G._Harding",
+        "party": "Republican",
+        "born": "1865-11-02",
+        "died": "(1923-08-02)"
+    },
+    {
+        "name": "Calvin Coolidge",
+        "img": "/wiki/File:Calvin_Coolidge_cph.3g10777_(cropped).jpg",
+        "link": "/wiki/Calvin_Coolidge",
+        "party": "Republican",
+        "born": "1872-07-04",
+        "died": "(1933-01-05)"
+    },
+    {
+        "name": "Herbert Hoover",
+        "img": "/wiki/File:President_Hoover_portrait.jpg",
+        "link": "/wiki/Herbert_Hoover",
+        "party": "Republican",
+        "born": "1874-08-10",
+        "died": "(1964-10-20)"
+    },
+    {
+        "name": "Benjamin Harrison",
+        "img": "/wiki/File:Benjamin_Harrison,_head_and_shoulders_bw_photo,_1896.jpg",
+        "link": "/wiki/Benjamin_Harrison",
+        "party": "Republican",
+        "born": "1833-08-20",
+        "died": "(1901-03-13)"
+    },
+    {
+        "name": "Franklin D. Roosevelt",
+        "img": "/wiki/File:FDR_in_1933_(1).jpg",
+        "link": "/wiki/Franklin_D._Roosevelt",
+        "party": "Democratic",
+        "born": "1882-01-30",
+        "died": "(1945-04-12)"
+    },
+    {
+        "name": "Dwight D. Eisenhower",
+        "img": "/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg",
+        "link": "/wiki/Dwight_D._Eisenhower",
+        "party": "Republican",
+        "born": "1890-10-14",
+        "died": "(1969-03-28)"
+    },
+    {
+        "name": "Harry S. Truman",
+        "img": "/wiki/File:TRUMAN_58-766-06_CROPPED.jpg",
+        "link": "/wiki/Harry_S._Truman",
+        "party": "Democratic",
+        "born": "1884-05-08",
+        "died": "December 26, 1972(1972-12-26) (aged 88)(1972-12-26)"
+    },
+    {
+        "name": "John F. Kennedy",
+        "img": "/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg",
+        "link": "/wiki/John_F._Kennedy",
+        "party": "Democratic",
+        "born": "1917-05-29",
+        "died": "November 22, 1963(1963-11-22) (aged 46)(1963-11-22)"
+    },
+    {
+        "name": "Lyndon B. Johnson",
+        "img": "/wiki/File:37_Lyndon_Johnson_3x4.jpg",
+        "link": "/wiki/Lyndon_B._Johnson",
+        "party": "Democratic",
+        "born": "1908-08-27",
+        "died": "(1973-01-22)"
+    },
+    {
+        "name": "Richard Nixon",
+        "img": "/wiki/File:Richard_Nixon_presidential_portrait.jpg",
+        "link": "/wiki/Richard_Nixon",
+        "party": "Republican",
+        "born": "1913-01-09",
+        "died": "(1994-04-22)New York City"
+    },
+    {
+        "name": "Bill Clinton",
+        "img": "/wiki/File:Bill_Clinton.jpg",
+        "link": "/wiki/Bill_Clinton",
+        "party": "Democratic",
+        "born": "1946-08-19",
+        "died": ""
+    },
+    {
+        "name": "Gerald Ford",
+        "img": "/wiki/File:Gerald_Ford_presidential_portrait.jpg",
+        "link": "/wiki/Gerald_Ford",
+        "party": "Republican",
+        "born": "1913-07-14",
+        "died": "December 26, 2006(2006-12-26) (aged 93)(2006-12-26)"
+    },
+    {
+        "name": "Jimmy Carter",
+        "img": "/wiki/File:JimmyCarterPortrait2.jpg",
+        "link": "/wiki/Jimmy_Carter",
+        "party": "Democratic",
+        "born": "1924-10-01",
+        "died": ""
+    },
+    {
+        "name": "George H. W. Bush",
+        "img": "/wiki/File:George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait_(cropped).jpg",
+        "link": "/wiki/George_H._W._Bush",
+        "party": "Republican",
+        "born": "1924-06-12",
+        "died": "(2018-11-30)"
+    },
+    {
+        "name": "George W. Bush",
+        "img": "/wiki/File:George-W-Bush.jpeg",
+        "link": "/wiki/George_W._Bush",
+        "party": "Republican",
+        "born": "1946-07-06",
+        "died": ""
+    },
+    {
+        "name": "Ronald Reagan",
+        "img": "/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg",
+        "link": "/wiki/Ronald_Reagan",
+        "party": "Republican",
+        "born": "1911-02-06",
+        "died": "(2004-06-05)"
+    },
+    {
+        "name": "Barack Obama",
+        "img": "/wiki/File:Official_portrait_of_Barack_Obama.jpg",
+        "link": "/wiki/Barack_Obama",
+        "party": "Democratic",
+        "born": "1961-08-04",
+        "died": ""
+    },
+    {
+        "name": "Donald Trump",
+        "img": "/wiki/File:Donald_Trump_official_portrait.jpg",
+        "link": "/wiki/Donald_Trump",
+        "party": "Republican",
+        "born": "1946-06-14",
+        "died": ""
+    }
+]
