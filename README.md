@@ -16,12 +16,14 @@ The structure we were looking for is like this:
 ```json
 [
     {
+        "number" "integer"
         "name": "string",
         "img": "string",
         "link": "string",
         "party": "string",
         "born": "string",
-        "died": "string"
+        "died": "string",
+        "signature": "string"
     }
 ]
 ```
