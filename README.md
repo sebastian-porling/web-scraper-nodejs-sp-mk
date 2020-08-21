@@ -33,3 +33,17 @@ We use the **axios** package to fetch the data from wikipedia! The first request
 The class **fileWrite.js** utilizes the **jsonfile** package. It writes a json file with the given path/filename and json input.
 
 The main class **index.js** uses a "throbber" for the console output, showing that something is happening for the user. Because fetching all the presidents take some time...
+
+Something interesting to know about the implementation of the fetching of each president is that using this version of a loop:
+
+```javascript
+await presidents.reduce(async (promise, president) => {
+    const response = await getPresident(president.link);
+    throbber.start("Fetched " + president.link + "\n")
+    const { born, died, signature } = await scrapePresident(response.data);
+    output.push(await Object.assign(president, { born, died, signature }));
+    await promise;
+}, Promise.resolve());
+```
+
+Is much faster than trying to do it synchrounously. I timed it to be about 40% faster to use the asyncrounous version with the reduce function.
