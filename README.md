@@ -40,8 +40,8 @@ Something interesting to know about the implementation of the fetching of each p
 await presidents.reduce(async (promise, president) => {
     const response = await getPresident(president.link);
     throbber.start("Fetched " + president.link + "\n")
-    const { born, died, signature } = await scrapePresident(response.data);
-    output.push(await Object.assign(president, { born, died, signature }));
+    const presidentInfo = await scrapePresident(response.data);
+    output.push(await Object.assign(president, presidentInfo));
     await promise;
 }, Promise.resolve());
 ```
