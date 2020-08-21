@@ -1,16 +1,16 @@
-# Web Scraper With Node
+# :tophat: Web Scraper With Node
 
 This solution is made by Sebastian Porling and Mehtab Kayani.
 
-## Execution and compile
+## :boom: Execution and compile
 
 You can compile this by using `npm i`. By using `npm run build` you will make executable binaries for all operating systems. But the Windows version seems to be buggy.
 
-And execute by using `npm start` or running any of the binaries.
+And execute by using `npm start` or running any of the binaries which can be found in the **/build** directory.
 
-## Motivation
+## :question: Motivation
 
-We decided to gather information from presidents of the United States of America!
+We decided to gather information from [presidents of the United States of America!](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States)
 The structure we were looking for is like this:
 
 ```json
