@@ -8,16 +8,14 @@ const cheerio = require("cheerio");
 module.exports.scrapePresidents = async (html) => {
     const presidents = [];
     const $ = cheerio.load(html);
-    const tableBody = $("tbody")[1];
-    const rows = $("tr:has(td:has(a:has(img)))", tableBody);
+    const rows = $("tr:has(td:has(a:has(img)))", $("tbody")[1]);
     $(rows).each(async (i, row) => {
         const number = parseInt($("a", $("td", row)[0]).text());
         const name = $("b", $("td", row)[3]).text();
         const img = $("a", $("td", row)[2]).attr("href");
         const link = $("a", $("td", row)[3]).attr("href");
         const party = $("a", $("td", row)[5]).text();
-        const json = { number, name, img, link, party };
-        presidents.push(json);
+        presidents.push({ number, name, img, link, party });
     });
     return presidents;
 };
@@ -29,9 +27,7 @@ module.exports.scrapePresidents = async (html) => {
 module.exports.scrapePresident = async (html) => {
     const $ = cheerio.load(html);
     const born = $(".bday").text();
-    const diedTr = $("tr:has(th:contains(Died))");
-    const died = $("span", diedTr).text();
-    const signatureTr = $("tr:has(th:contains(Signature))");
-    const signature = $("a", signatureTr).attr("href");
+    const died = $("span", $("tr:has(th:contains(Died))")).text();
+    const signature = $("a", $("tr:has(th:contains(Signature))")).attr("href");
     return { born, died, signature };
 };
