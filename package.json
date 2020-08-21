@@ -1,0 +1,27 @@
+{
+  "name": "web_scraper",
+  "version": "1.0.0",
+  "description": "An assignment made with Node.js and some web scraping libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Node.js",
+    "web",
+    "scrape"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sebastian-porling/web-scraper-nodejs-sp-mk"
+  },
+  "author": "Sebastian Porling, Mehtab Kayani",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "jsonfile": "^6.0.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
