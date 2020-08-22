@@ -9,6 +9,7 @@ const {
     scrapePresidents,
 } = require("./modules/webScraper.js");
 const { writeJson } = require("./modules/fileWriter.js");
+const { validPresident, validInfo } = require("./modules/validator.js");
 const throbber = ora();
 
 /**
@@ -46,9 +47,13 @@ const addPresidentInfromation = async (presidents = []) => {
     const result = [];
     await Promise.all(
         presidents.map(async (president) => {
+            if ((await validPresident(president)) !== undefined)
+                throw "Not valid format";
             const response = await getPresident(president.link);
             throbber.start("Fetched " + president.link + "\n");
             const presidentInfo = await scrapePresident(response.data);
+            if ((await validInfo(presidentInfo)) !== undefined)
+                throw "Not valid info format";
             result.push(await Object.assign(president, presidentInfo));
         })
     );
