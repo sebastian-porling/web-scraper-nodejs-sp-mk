@@ -4,6 +4,7 @@ const cheerio = require("cheerio");
  * Fetches name, img, wiki-link, party of all american presidents
  * on Wikipedia
  * @param html HTML of USA Presidents on wikipedia
+ * @throws error if html would be empty or something wrong with scraping
  */
 module.exports.scrapePresidents = async (html) => {
     if (html === undefined || html === "") throw "Html undefined or empty"
@@ -28,6 +29,7 @@ module.exports.scrapePresidents = async (html) => {
 /**
  * Fetches the born and died information of an american president
  * @param html HTML content for an american president wikipedia page
+ * @throws error if html would be empty or something wrong with scraping
  */
 module.exports.scrapePresident = async (html) => {
     if (html === undefined || html === "") throw "Html undefined or empty"

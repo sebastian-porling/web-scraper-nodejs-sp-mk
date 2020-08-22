@@ -5,6 +5,8 @@ module.exports.PRESIDENT_LIST_PAGE = PRESIDENT_LIST_PAGE;
 
 /**
  * Fetches the USA president page on Wikipedia
+ * @returns response
+ * @throws error if fetch couldn't be done
  */
 module.exports.getPresidents = async () => {
     try {
@@ -17,6 +19,8 @@ module.exports.getPresidents = async () => {
 /**
  * Fetches the HTML content for a wikipage
  * @param presidentPath wiki path for a president
+ * @returns response
+ * @throws error if fetch couldn't be done
  */
 module.exports.getPresident = async (PRESIDENT_PAGE) => {
     if (PRESIDENT_PAGE === undefined) throw "No president path given";

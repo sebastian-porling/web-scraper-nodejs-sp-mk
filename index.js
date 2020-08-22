@@ -41,6 +41,7 @@ module.exports.main = async () => {
 /**
  * Adds information about each president.
  * @param presidents list of presidents
+ * @throws errors if validation, fetch or scraping would be foulty
  */
 const addPresidentInfromation = async (presidents = []) => {
     if (presidents.length === 0) throw "The array of presidents is empty";

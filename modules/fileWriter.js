@@ -4,6 +4,7 @@ const FORMATING = { spaces: 4, EOL: "\r\n" };
 /**
  * Writes a json file with the given input
  * @param JSON To write
+ * @throws error if we couldn't write the file
  */
 module.exports.writeJson = async (FILE_NAME = "result.json", JSON) => {
     try {
