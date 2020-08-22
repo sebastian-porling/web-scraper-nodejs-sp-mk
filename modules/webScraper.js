@@ -34,11 +34,11 @@ module.exports.scrapePresident = async (html) => {
     try {
         const $ = cheerio.load(html);
         const born = $(".bday").text();
-        const died = $("span[style='display:none']", $("tr:has(th:contains(Died))"))
+        let died = $("span[style='display:none']", $("tr:has(th:contains(Died))"))
             .text()
             .replace(/[\(\)]/gi, "");
         const signature = $("a", $("tr:has(th:contains(Signature))")).attr("href");
-        return { born, died, signature };
+        return died === "" ? { born, signature } : { born, died, signature };
     } catch (error) {
         throw "Couldn't scrape president";
     }
