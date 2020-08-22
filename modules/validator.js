@@ -23,7 +23,6 @@ module.exports.validPresident = async (president) => {
  */
 module.exports.validInfo = async (info) => {
     try {
-        //console.log('\n', info, '\n')
         return await validate(info, infoConstraints);
     } catch (error) {
         throw "Couldn't validate info";
