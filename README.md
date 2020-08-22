@@ -39,13 +39,12 @@ The main class **index.js** uses a "throbber" for the console output, showing th
 Something interesting to know about the implementation of the fetching of each president is that using this version of a loop:
 
 ```javascript
-await presidents.reduce(async (promise, president) => {
+await Promise.all(presidents.map(async (president) => {
     const response = await getPresident(president.link);
-    throbber.start("Fetched " + president.link + "\n")
+    throbber.start("Fetched " + president.link + "\n");
     const presidentInfo = await scrapePresident(response.data);
-    output.push(await Object.assign(president, presidentInfo));
-    await promise;
-}, Promise.resolve());
+    result.push(await Object.assign(president, presidentInfo));
+}));
 ```
 
 Is much faster than trying to do it synchrounously. I timed it to be about 40% faster to use the asyncrounous version with the reduce function.
