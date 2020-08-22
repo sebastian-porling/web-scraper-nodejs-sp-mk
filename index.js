@@ -6,7 +6,6 @@ const {
 } = require("./modules/webScraper.js");
 const { writeJson } = require("./modules/fileWriter.js");
 const throbber = ora();
-const output = [];
 
 /**
  * Fetches information of presidents from the USA
@@ -22,7 +21,7 @@ module.exports.main = async () => {
         throbber
             .succeed("Done fetching president list!\n")
             .start("Fetching each presidents information!\n");
-        await addPresidentInfromation(presidents);
+        const output = await addPresidentInfromation(presidents);
         throbber
             .succeed("All president information is fetched!\n")
             .start("Writing to presidents.json...\n");
@@ -30,20 +29,23 @@ module.exports.main = async () => {
         await writeJson("presidents.json", output);
         throbber.succeed("Done writing, check presidents.json!");
     } catch (err) {
-        throbber.fail("We recieved error while fetching or writing json file!");
+        throbber.fail("We recieved error while fetching or writing json file!\n\t" + err);
     }
 };
 
 /**
  * Adds information about each president.
- * @param presidents 
+ * @param presidents
  */
-const addPresidentInfromation = async (presidents) => {
+const addPresidentInfromation = async (presidents = []) => {
+    if ( presidents.length === 0 ) throw "The array of presidents is empyty";
+    const result = [];
     await presidents.reduce(async (promise, president) => {
         const response = await getPresident(president.link);
         throbber.start("Fetched " + president.link + "\n");
         const presidentInfo = await scrapePresident(response.data);
-        output.push(await Object.assign(president, presidentInfo));
+        result.push(await Object.assign(president, presidentInfo));
         await promise;
     }, Promise.resolve());
+    return result;
 };
