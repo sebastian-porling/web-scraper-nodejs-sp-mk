@@ -15,5 +15,6 @@ module.exports.getPresidents = async () => {
  * @param presidentPath wiki path for a president
  */
 module.exports.getPresident = async (PRESIDENT_PAGE) => {
+    if (PRESIDENT_PAGE === undefined) throw "No president path given";
     return await axios.get(WIKI_URL + PRESIDENT_PAGE);
 };

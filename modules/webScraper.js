@@ -6,6 +6,7 @@ const cheerio = require("cheerio");
  * @param html HTML of USA Presidents on wikipedia
  */
 module.exports.scrapePresidents = async (html) => {
+    if (html === undefined || html === "") throw "Html undefined or empty"
     const presidents = [];
     const $ = cheerio.load(html);
     const rows = $("tr:has(td:has(a:has(img)))", $("tbody")[1]);
@@ -25,9 +26,12 @@ module.exports.scrapePresidents = async (html) => {
  * @param html HTML content for an american president wikipedia page
  */
 module.exports.scrapePresident = async (html) => {
+    if (html === undefined || html === "") throw "Html undefined or empty"
     const $ = cheerio.load(html);
     const born = $(".bday").text();
-    const died = $("span", $("tr:has(th:contains(Died))")).text();
+    const died = $("span[style='display:none']", $("tr:has(th:contains(Died))"))
+        .text()
+        .replace(/[\(\)]/gi, "");
     const signature = $("a", $("tr:has(th:contains(Signature))")).attr("href");
     return { born, died, signature };
 };
