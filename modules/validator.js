@@ -30,6 +30,11 @@ module.exports.validInfo = async (info) => {
     }
 };
 
+/**
+ * Combines all errors into one string
+ * @param errors errors produced by validate.js 
+ * @returns all errors in as one string
+ */
 module.exports.getErrors = async (errors) => {
     return errors.reduce((concat, error) => concat + error + ", ", "");
 };
