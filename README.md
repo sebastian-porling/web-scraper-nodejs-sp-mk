@@ -4,7 +4,7 @@ This solution is made by Sebastian Porling and Mehtab Kayani.
 
 ## :boom: Execution and compile
 
-You can compile this by using `npm i`. By using `npm run build` you will make executable binaries for all operating systems. But the Windows version seems to be buggy.
+You can compile this by using `npm i`. By using `npm run build` you will make executable binaries for all operating systems. But the Windows version seems to be buggy, it runs but the resources like fonts doesn't load so it looks different.
 
 And execute by using `npm start` or running any of the binaries which can be found in the **/build** directory. If using linux to run you simply do the following from the root folder: `./build/web_scraper-linux`. But if you for some reason want to use only node to run the application you can do `node bin.js`. You can't run the [**index.js**](./index.js) because it doesn't have anything that executes the main function. This was done just to follow the how they do it in the [**pkg**](https://www.npmjs.com/package/pkg) package. They do this just to seperate all the compile and deploy logic away from the main files.
 
