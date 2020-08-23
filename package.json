@@ -4,6 +4,9 @@
     "description": "An assignment made with Node.js and some web scraping libraries",
     "main": "index.js",
     "bin": "bin.js",
+    "pkg": {
+        "assets": "./node_modules/figlet/fonts/Standard.flf"
+    },
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node bin.js",
