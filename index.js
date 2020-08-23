@@ -1,6 +1,5 @@
 const ora = require("ora");
 const chalk = require("chalk");
-const figlet = require("figlet");
 const {
     getPresident,
     getPresidents,
@@ -16,6 +15,8 @@ const {
     validInfo,
     getErrors,
 } = require("./modules/validator.js");
+const timer = require("./modules/timer.js");
+const { showWelcomeMessage } = require("./modules/welcomeMessage.js");
 const throbber = ora({ spinner: "arc" });
 
 /**
@@ -24,6 +25,7 @@ const throbber = ora({ spinner: "arc" });
  */
 module.exports.main = async () => {
     try {
+        timer.start();
         await showWelcomeMessage();
         throbber.start(
             `Feching presidents from ${chalk.blue(PRESIDENT_LIST_PAGE)}\n`
@@ -40,7 +42,8 @@ module.exports.main = async () => {
         output.sort((first, second) => first.number - second.number);
         await writeJson("presidents.json", output);
         throbber.succeed(
-            `Done writing, check ${chalk.blue("presidents.json")}!`
+            `Done writing, check ${chalk.blue("presidents.json")}!` +
+                `\n  Took a total of ${chalk.green(timer.stop())}`
         );
     } catch (error) {
         throbber.fail(error);
@@ -73,19 +76,4 @@ const addPresidentInfromation = async (presidents = []) => {
         })
     );
     return result;
-};
-
-/**
- * Displays a heart warming welcome message
- * in standard out. If the figlet couln't be 
- * generated we will display a simple message instead.
- */
-const showWelcomeMessage = async () => {
-    try {
-        console.log(figlet.textSync("'MURICA"));
-        console.log(figlet.textSync("F*** YEAH!"));
-    } catch (error) {
-        console.log("'MURICA");
-        console.log("F*** YEAH! 🔫 \n")
-    }
 };
