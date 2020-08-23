@@ -54,4 +54,8 @@ await Promise.all(presidents.map(async (president) => {
 }));
 ```
 
-Is much faster than trying to do it synchrounously. I timed it to be about 40% faster to use the asyncrounous version with the map function. As each iteration takes some time it has a it will be gathered in the `Promise.all()`. When all iterations are done we can return the resulting json array. This does though make the throbber "lag" a litte, but still much faster then doing all the requests synchrounously. We have to sort all the presidents afterwards as the fetches might return in different orders.
+Is much faster than trying to do it synchrounously. We timed it to be about 40% faster to use the asyncrounous version with the map function. As each iteration takes some time it has a it will be gathered in the `Promise.all()`. When all iterations are done we can return the resulting json array. This does though make the throbber "lag" a litte, but still much faster then doing all the requests synchrounously. We have to sort all the presidents afterwards as the fetches might return in different orders.
+
+We made the class [**timer.js**](./modules/timer.js) to measure the exucution time of the program. It can also be used for measuring each function or specific parts of the application.
+
+Lastly there is the [**welcomeMessage.js**](./modules/welcomeMessage.js) that just displays a pleasing welcome message to the user. It utilizes the [**figlet**](https://www.npmjs.com/package/figlet) package which makes an ASCII art/text out of the normal text you give it. It is possible to use different art/text styles and fonts. We just use the standard config.
