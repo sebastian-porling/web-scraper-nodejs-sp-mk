@@ -24,7 +24,7 @@ const throbber = ora({ spinner: "arc" });
  */
 module.exports.main = async () => {
     try {
-        showWelcomeMessage();
+        await showWelcomeMessage();
         throbber.start(
             `Feching presidents from ${chalk.blue(PRESIDENT_LIST_PAGE)}\n`
         );
@@ -77,9 +77,15 @@ const addPresidentInfromation = async (presidents = []) => {
 
 /**
  * Displays a heart warming welcome message
- * in standard out.
+ * in standard out. If the figlet couln't be 
+ * generated we will display a simple message instead.
  */
-const showWelcomeMessage = () => {
-    console.log(figlet.textSync("'MURICA"));
-    console.log(figlet.textSync("F*** YEAH!"));
+const showWelcomeMessage = async () => {
+    try {
+        console.log(figlet.textSync("'MURICA"));
+        console.log(figlet.textSync("F*** YEAH!"));
+    } catch (error) {
+        console.log("'MURICA");
+        console.log("F*** YEAH! 🔫 \n")
+    }
 };
