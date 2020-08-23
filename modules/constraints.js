@@ -12,11 +12,11 @@ module.exports.presidentConstraints = {
     },
     img: {
         presence: true,
-        type: "string",
+        format: /^(\/wiki\/File\:.+)(\.(jpg|jpeg|tif))$/i
     },
     link: {
         presence: true,
-        type: "string",
+        format: /^\/wiki\/.+/i
     },
     party: {
         presence: true,
@@ -34,6 +34,6 @@ module.exports.infoConstraints = {
     },
     signature: {
         presence: true,
-        type: "string",
+        format: /^(\/wiki\/File\:.+)\.svg$/i,
     },
 };
