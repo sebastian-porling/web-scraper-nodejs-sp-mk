@@ -1,0 +1,337 @@
+# The configurations that used for the recording, feel free to edit them
+config:
+
+  # Specify a command to be executed
+  # like `/bin/bash -l`, `ls`, or any other commands
+  # the default is bash for Linux
+  # or powershell.exe for Windows
+  command: zsh
+  
+  # Specify the current working directory path
+  # the default is the current working directory path
+  cwd: /home/porling/se.experis.academy/javascript/tasks/javascript_fundamentals/web_scraper
+  
+  # Export additional ENV variables
+  env:
+    recording: true
+  
+  # Explicitly set the number of columns
+  # or use `auto` to take the current
+  # number of columns of your shell
+  cols: 73
+  
+  # Explicitly set the number of rows
+  # or use `auto` to take the current
+  # number of rows of your shell
+  rows: 25
+  
+  # Amount of times to repeat GIF
+  # If value is -1, play once
+  # If value is 0, loop indefinitely
+  # If value is a positive number, loop n times
+  repeat: 0
+  
+  # Quality
+  # 1 - 100
+  quality: 100
+  
+  # Delay between frames in ms
+  # If the value is `auto` use the actual recording delays
+  frameDelay: auto
+  
+  # Maximum delay between frames in ms
+  # Ignored if the `frameDelay` isn't set to `auto`
+  # Set to `auto` to prevent limiting the max idle time
+  maxIdleTime: 2000
+  
+  # The surrounding frame box
+  # The `type` can be null, window, floating, or solid`
+  # To hide the title use the value null
+  # Don't forget to add a backgroundColor style with a null as type
+  frameBox:
+    type: floating
+    title: null
+    style:
+      border: 0px black solid
+      # boxShadow: none
+      # margin: 0px
+  
+  # Add a watermark image to the rendered gif
+  # You need to specify an absolute path for
+  # the image on your machine or a URL, and you can also
+  # add your own CSS styles
+  watermark:
+    imagePath: null
+    style:
+      position: absolute
+      right: 15px
+      bottom: 15px
+      width: 100px
+      opacity: 0.9
+  
+  # Cursor style can be one of
+  # `block`, `underline`, or `bar`
+  cursorStyle: block
+  
+  # Font family
+  # You can use any font that is installed on your machine
+  # in CSS-like syntax
+  fontFamily: "Cascadia Code PL"
+  
+  # The size of the font
+  fontSize: 14
+  
+  # The height of lines
+  lineHeight: 1
+  
+  # The spacing between letters
+  letterSpacing: 0
+  
+  # Theme
+  theme:
+    background: "transparent"
+    foreground: "#afafaf"
+    cursor: "#c7c7c7"
+    black: "#232628"
+    red: "#fc4384"
+    green: "#b3e33b"
+    yellow: "#ffa727"
+    blue: "#75dff2"
+    magenta: "#ae89fe"
+    cyan: "#708387"
+    white: "#d5d5d0"
+    brightBlack: "#626566"
+    brightRed: "#ff7fac"
+    brightGreen: "#c8ed71"
+    brightYellow: "#ebdf86"
+    brightBlue: "#75dff2"
+    brightMagenta: "#ae89fe"
+    brightCyan: "#b1c6ca"
+    brightWhite: "#f9f9f4"
+  
+# Records, feel free to edit them
+records:
+  - delay: 2133
+    content: "\e[0m\e[49m\e[39m\e[27m\e[24m\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                        \r\e[0m\e[49m\e[39m\e[27m\e[24m\e[K\r\n\r\n\r\n\e[3A\e7\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/tasks/javascript_fundamentals/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mweb_scraper\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m   \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m 22:04:04\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m"
+  - delay: 1079
+    content: .
+  - delay: 484
+    content: "\e[?25l"
+  - delay: 6
+    content: "\e8\e[0m\e[49m\e[39m\e[27m\e[24m\e[J/"
+  - delay: 41
+    content: "\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/javascript_fundamentals/web_scraper\a\e]1;..s/web_scraper\a"
+  - delay: 17
+    content: "\e[0m\e[38;5;31m\e[48;5;236m\e[49m\e[39m\e[27m\e[24m\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                        \r\e[0m\e[49m\e[39m\e[27m\e[24m\e[K"
+  - delay: 9
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mj\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mweb_scraper\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster \e[38;5;39m?2\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m   \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 22:04:04\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?1h\e=\e[?12l\e[?25h\e[?2004h"
+  - delay: 20
+    content: ".\b./"
+  - delay: 2183
+    content: b
+  - delay: 374
+    content: "uild\e[1m/\e[0m"
+  - delay: 420
+    content: "\b\e[0m/web_scraper-"
+  - delay: 803
+    content: l
+  - delay: 190
+    content: "inux\e[1m \e[0m"
+  - delay: 300
+    content: "\b\e[0m \b\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m ./build/web_scraper-linux\e[K\e[?12l\e[?25h\r\r\n\e]2;./build/web_scraper-linux\a\e]1;./build/web_scraper-linux\a"
+  - delay: 855
+    content: "  _ __  __ _   _ ____  ___ ____    _    \r\n ( )  \\/  | | | |  _ \\|_ _/ ___|  / \\   \r\n |/| |\\/| | | | | |_) || | |     / _ \\  \r\n   | |  | | |_| |  _ < | | |___ / ___ \\ \r\n   |_|  |_|\\___/|_| \\_\\___\\____/_/   \\_\\\r\n                                        \r\n  _____                   __   _______    _    _   _ _ \r\n |  ___|_/\\____/\\____/\\__ \\ \\ / / ____|  / \\  | | | | |\r\n | |_  \\    /\\    /\\    /  \\ V /|  _|   / _ \\ | |_| | |\r\n |  _| /_  _\\/_  _\\/_  _\\   | | | |___ / ___ \\|  _  |_|\r\n |_|     \\/    \\/    \\/     |_| |_____/_/   \\_\\_| |_(_)\r\n                                                       \r\n\e[?25l"
+  - delay: 9
+    content: "\e[36m◜\e[39m Feching presidents from \e[34m/wiki/List_of_presidents_of_the_United_States\e[39m\r\n"
+  - delay: 104
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◠\e[39m Feching presidents from \e[34m/wiki/List_of_presidents_of_the_United_States\e[39m\r\n"
+  - delay: 99
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◝\e[39m Feching presidents from \e[34m/wiki/List_of_presidents_of_the_United_States\e[39m\r\n"
+  - delay: 442
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Done fetching \e[34m/wiki/List_of_presidents_of_the_United_States\e[39m!\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 102
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◠\e[39m Fetching each presidents information!\r\n"
+  - delay: 97
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◝\e[39m Fetching each presidents information!\r\n"
+  - delay: 102
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◞\e[39m Fetching each presidents information!\r\n"
+  - delay: 100
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◡\e[39m Fetching each presidents information!\r\n"
+  - delay: 100
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◟\e[39m Fetching each presidents information!\r\n"
+  - delay: 100
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 101
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◠\e[39m Fetching each presidents information!\r\n"
+  - delay: 107
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◝\e[39m Fetching each presidents information!\r\n"
+  - delay: 95
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◞\e[39m Fetching each presidents information!\r\n"
+  - delay: 99
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◡\e[39m Fetching each presidents information!\r\n"
+  - delay: 100
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◟\e[39m Fetching each presidents information!\r\n"
+  - delay: 99
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 101
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◠\e[39m Fetching each presidents information!\r\n"
+  - delay: 99
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◝\e[39m Fetching each presidents information!\r\n"
+  - delay: 104
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◞\e[39m Fetching each presidents information!\r\n"
+  - delay: 98
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◡\e[39m Fetching each presidents information!\r\n"
+  - delay: 102
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◟\e[39m Fetching each presidents information!\r\n"
+  - delay: 98
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 103
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◠\e[39m Fetching each presidents information!\r\n"
+  - delay: 98
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◝\e[39m Fetching each presidents information!\r\n"
+  - delay: 99
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◞\e[39m Fetching each presidents information!\r\n"
+  - delay: 100
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◡\e[39m Fetching each presidents information!\r\n"
+  - delay: 31
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/James_Buchanan\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 462
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◠\e[39m Fetching each presidents information!\r\n"
+  - delay: 7
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/James_Monroe\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 297
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/James_Madison\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 261
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/John_Quincy_Adams\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 251
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Andrew_Jackson\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 240
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Martin_Van_Buren\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 226
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/William_Henry_Harrison\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 263
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/John_Tyler\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 130
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/James_K._Polk\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 180
+    content: "\e[2K"
+  - delay: 5
+    content: "\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Zachary_Taylor\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 168
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Millard_Fillmore\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 134
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Franklin_Pierce\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 144
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Abraham_Lincoln\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 305
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Andrew_Johnson\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 120
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Ulysses_S._Grant\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 423
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Rutherford_B._Hayes\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 188
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/James_A._Garfield\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 107
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Chester_A._Arthur\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 164
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Grover_Cleveland\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 157
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Benjamin_Harrison\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 142
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Grover_Cleveland\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 124
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/William_McKinley\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 176
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/William_Howard_Taft\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 214
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Woodrow_Wilson\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 152
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Calvin_Coolidge\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 119
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Herbert_Hoover\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 201
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Harry_S._Truman\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 282
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Richard_Nixon\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 260
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Bill_Clinton\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 425
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/George_H._W._Bush\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 232
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/George_W._Bush\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 323
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[36m◠\e[39m Fetching each presidents information!\r\n"
+  - delay: 9
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/George_Washington\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 260
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Thomas_Jefferson\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 274
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/John_Adams\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 184
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Theodore_Roosevelt\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 313
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Warren_G._Harding\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 142
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Franklin_D._Roosevelt\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 274
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Dwight_D._Eisenhower\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 257
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/John_F._Kennedy\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 332
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Lyndon_B._Johnson\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 225
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Gerald_Ford\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 325
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Jimmy_Carter\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 269
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Ronald_Reagan\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 286
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Barack_Obama\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 356
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Fetched \e[34m/wiki/Donald_Trump\e[39m\r\n\r\n\e[?25l\e[36m◜\e[39m Fetching each presidents information!\r\n"
+  - delay: 465
+    content: "\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m All president information is fetched!\r\n\r\n\e[?25l\e[36m◜\e[39m Writing to presidents.json...\r\n\e[2K\e[1G\e[1A\e[2K\e[1G\e[?25h\e[32m✔\e[39m Done writing, check \e[34mpresidents.json\e[39m!\r\n\e[?25h"
+  - delay: 62
+    content: "\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                        \r \r\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/javascript_fundamentals/web_scraper\a\e]1;..s/web_scraper\a"
+  - delay: 33
+    content: "\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mj\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mweb_scraper\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster \e[38;5;39m?2\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 814
+    content: c
+  - delay: 126
+    content: "\bca"
+  - delay: 250
+    content: t
+  - delay: 188
+    content: ' '
+  - delay: 304
+    content: p
+  - delay: 71
+    content: r
+  - delay: 51
+    content: e
+  - delay: 208
+    content: "sidents.json\e[1m \e[0m"
+  - delay: 1020
+    content: "\b\e[0m|"
+  - delay: 812
+    content: "\b \b"
+  - delay: 152
+    content: ' '
+  - delay: 285
+    content: '|'
+  - delay: 209
+    content: ' '
+  - delay: 533
+    content: j
+  - delay: 81
+    content: q
+  - delay: 290
+    content: "\e[?1l\e>\e[?25l\r\n\e[A\e[?25l\e[?2004l\r\r\e[A\e[A\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[27m\e[24m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[39m\e[27m\e[24m cat presidents.json | jq\e[K\e[?12l\e[?25h\r\r\n\e]2;cat presidents.json | jq\a\e]1;cat\a"
+  - delay: 95
+    content: "\e[1;39m[\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m1\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"George Washington\"\e[0m\e[1;39m,\r\n"
+  - delay: 50
+    content: "    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Gilbert_Stuart_Williamstown_Portrait_of_George_Washington.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/George_Washington\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1732-02-22\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1799-12-14\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:George_Washington_signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m2\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"John Adams\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:John_Adams,_Gilbert_Stuart,_c1800_1815.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/John_Adams\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Federalist\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1735-10-30\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1826-07-04\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:John_Adams_Sig_2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m3\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Thomas Jefferson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Thomas_Jefferson_by_Rembrandt_Peale,_1800.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Thomas_Jefferson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic-Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1743-04-13\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1826-07-04\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Thomas_Jefferson_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m4\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"James Madison\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Madison.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/James_Madison\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic-Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1751-03-16\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1836-06-28\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Madison_sig.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m5\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"James Monroe\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Monroe_White_House_portrait_1819.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/James_Monroe\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic-Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1758-04-28\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1831-07-04\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Monroe%27s_sig.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m6\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"John Quincy Adams\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:JQA_Photo.tif\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/John_Quincy_Adams\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic-Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1767-07-11\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1848-02-23\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:John_Quincy_Adams_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m7\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Andrew Jackson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Andrew_jackson_head.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Andrew_Jackson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1767-03-15\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1845-06-08\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Andrew_Jackson_Signature-.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m8\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Martin Van Buren\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Martin_Van_Buren_edit.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Martin_Van_Buren\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1782-12-05\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1862-07-24\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Martin_Van_Buren_Signature2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m9\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"William Henry Harrison\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:William_Henry_Harrison_daguerreotype_edit.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/William_Henry_Harrison\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Whig\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1773-02-09\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1841-04-04\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:William_Henry_Harrison_Signature-full.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m10\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"John Tyler\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:John_Tyler,_Jr.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/John_Tyler\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Whig[i]\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1790-03-29\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1862-01-18\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:John_Tyler_Signature_2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m11\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"James K. Polk\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:JKP.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/James_K._Polk\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1795-11-02\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1849-06-15\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_K_Polk_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m12\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Zachary Taylor\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Zachary_Taylor_restored_and_cropped.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Zachary_Taylor\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Whig\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1784-11-24\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1850-07-09\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Zachary_Taylor_Signature-2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m13\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Millard Fillmore\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Millard_Fillmore_by_Brady_Studio_1855-65-crop.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Millard_Fillmore\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Whig\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1800-01-07\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1874-03-08\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Millard_Fillmore_Signature-2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m14\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Franklin Pierce\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Mathew_Brady_-_Franklin_Pierce_-_alternate_crop_(cropped).jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Franklin_Pierce\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1804-11-23\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1869-10-08\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Franklin_Pierce_Signature2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m15\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"James Buchanan\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Buchanan.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/James_Buchanan\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1791-04-23\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1868-06-01\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Buchanan_Signature2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m16\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Abraham Lincoln\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Abraham_Lincoln_O-77_matte_collodion_print.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Abraham_Lincoln\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1809-02-12\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1865-04-15\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Abraham_Lincoln_1862_signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m17\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Andrew Johnson\"\e[0m\e[1;39m,\r\n"
+  - delay: 107
+    content: "    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Andrew_Johnson_photo_portrait_head_and_shoulders,_c1870-1880-Edit1.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Andrew_Johnson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"National Union[l]\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1808-12-29\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1875-07-31\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Andrew_Johnson_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m18\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Ulysses S. Grant\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Ulysses_S_Grant_by_Brady_c1870-restored.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Ulysses_S._Grant\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1822-04-27\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1885-07-23\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:UlyssesSGrantSignature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m19\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Rutherford B. Hayes\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:President_Rutherford_Hayes_1870_-_1880_Restored.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Rutherford_B._Hayes\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1822-10-04\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1893-01-17\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Rutherford_Birchard_Hayes_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m20\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"James A. Garfield\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Abram_Garfield,_photo_portrait_seated.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/James_A._Garfield\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1831-11-19\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1881-09-19\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:James_Abram_Garfield_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m21\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Chester A. Arthur\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Chester_Alan_Arthur.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Chester_A._Arthur\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1829-10-05\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1886-11-18\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Chester_Alan_Arthur_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m22\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Grover Cleveland\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Grover_Cleveland_-_NARA_-_518139_(cropped).jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Grover_Cleveland\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1837-03-18\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1908-06-24\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Grover_Cleveland_Signature_1882.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m23\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Benjamin Harrison\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Benjamin_Harrison,_head_and_shoulders_bw_photo,_1896.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Benjamin_Harrison\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1833-08-20\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1901-03-13\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Benjamin_Harrison_Signature-2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m24\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Grover Cleveland\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Grover_Cleveland_-_NARA_-_518139_(cropped).jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Grover_Cleveland\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1837-03-18\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1908-06-24\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Grover_Cleveland_Signature_1882.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m25\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"William McKinley\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Mckinley.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/William_McKinley\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1843-01-29\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1901-09-14\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:William_McKinley_Signature-full.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m26\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Theodore Roosevelt\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:President_Roosevelt_-_Pach_Bros.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Theodore_Roosevelt\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1858-10-27\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1919-01-06\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Theodore_Roosevelt_Signature-2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m27\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"William Howard Taft\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:William_Howard_Taft,_head-and-shoulders_portrait,_facing_front.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/William_Howard_Taft\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1857-09-15\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1930-03-08\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:William_Howard_Taft_Signature2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m28\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Woodrow Wilson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Woodrow_Wilson-H%26E.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Woodrow_Wilson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1856-12-28\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1924-02-03\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Woodrow_Wilson_Signature_2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m29\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Warren G. Harding\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Warren_G_Harding-Harris_%26_Ewing.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Warren_G._Harding\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1865-11-02\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1923-08-02\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Warren_G_Harding_Signature2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m30\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Calvin Coolidge\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Calvin_Coolidge_cph.3g10777_(cropped).jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Calvin_Coolidge\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1872-07-04\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1933-01-05\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:C_Coolidge_signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m31\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Herbert Hoover\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:President_Hoover_portrait.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Herbert_Hoover\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1874-08-10\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1964-10-20\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Herbert_Clark_Hoover_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m32\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Franklin D. Roosevelt\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:FDR_in_1933_(1).jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Franklin_D._Roosevelt\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1882-01-30\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1945-04-12\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Franklin_Roosevelt_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m33\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Harry S. Truman\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:TRUMAN_58-766-06_CROPPED.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Harry_S._Truman\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1884-05-08\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1972-12-26\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Harry_S_Truman_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m34\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Dwight D. Eisenhower\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Dwight_D._Eisenhower,_official_photo_portrait,_May_29,_1959.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Dwight_D._Eisenhower\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1890-10-14\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1969-03-28\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Dwight_Eisenhower_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m35\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"John F. Kennedy\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:John_F._Kennedy,_White_House_color_photo_portrait.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/John_F._Kennedy\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1917-05-29\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1963-11-22\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:John_F_Kennedy_Signature_2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m36\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Lyndon B. Johnson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:37_Lyndon_Johnson_3x4.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Lyndon_B._Johnson\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1908-08-27\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1973-01-22\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Lyndon_B._Johnson_-_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m37\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Richard Nixon\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Richard_Nixon_presidential_portrait.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Richard_Nixon\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1913-01-09\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1994-04-22\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Richard_Nixon_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m38\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Gerald Ford\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Gerald_Ford_presidential_portrait.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Gerald_Ford\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1913-07-14\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"2006-12-26\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Gerald_Ford_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m39\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Jimmy Carter\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:JimmyCarterPortrait2.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Jimmy_Carter\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1924-10-01\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Jimmy_Carter_Signature-2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m40\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Ronald Reagan\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Official_Portrait_of_President_Reagan_1981.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Ronald_Reagan\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1911-02-06\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"2004-06-05\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Ronald_Reagan_Signature2.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m41\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"George H. W. Bush\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:George_H._W._Bush,_President_of_the_United_States,_1989_official_portrait_(cropped).jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/George_H._W._Bush\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1924-06-12\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"died\"\e[0m\e[1;39m: \e[0m\e[0;32m\"2018-11-30\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:George_HW_Bush_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m42\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Bill Clinton\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Bill_Clinton.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Bill_Clinton\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1946-08-19\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Signature_of_Bill_Clinton.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m43\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"George W. Bush\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:George-W-Bush.jpeg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/George_W._Bush\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1946-07-06\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:GeorgeWBush_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m44\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Barack Obama\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Official_portrait_of_Barack_Obama.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Barack_Obama\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Democratic\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1961-08-04\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Barack_Obama_signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m,\r\n  \e[1;39m{\r\n    \e[0m\e[34;1m\"number\"\e[0m\e[1;39m: \e[0m\e[0;39m45\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"name\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Donald Trump\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"img\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Donald_Trump_official_portrait.jpg\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"link\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/Donald_Trump\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"party\"\e[0m\e[1;39m: \e[0m\e[0;32m\"Republican\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"born\"\e[0m\e[1;39m: \e[0m\e[0;32m\"1946-06-14\"\e[0m\e[1;39m,\r\n    \e[0m\e[34;1m\"signature\"\e[0m\e[1;39m: \e[0m\e[0;32m\"/wiki/File:Donald_Trump_Signature.svg\"\e[0m\e[1;39m\r\n  \e[1;39m}\e[0m\e[1;39m\r\n\e[1;39m]\e[0m\r\n\e[1m\e[7m%\e[27m\e[1m\e[0m                                                                        \r \r\e]2;porling@PC6391: ~/se.experis.academy/javascript/tasks/javascript_fundamentals/web_scraper\a\e]1;..s/web_scraper\a\r\e[0m\e[27m\e[24m\e[J\e[0m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;31m \e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39m~\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mse.\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mjavas\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mt\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[38;5;103mj\e[0m\e[38;5;103m\e[48;5;236m\e[48;5;236m\e[38;5;31m/\e[1m\e[38;5;31m\e[48;5;236m\e[38;5;39mweb_scraper\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;31m\e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;31m \e[0m\e[38;5;31m\e[48;5;236m\e[48;5;236m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[38;5;76m\e[38;5;76mmaster \e[38;5;39m?2\e[0m\e[38;5;39m\e[48;5;236m\e[48;5;236m\e[38;5;76m \e[0m\e[38;5;76m\e[48;5;236m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[49m\e[39m   \e[0m\e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;70m system\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m Node\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m \e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;70m\e[0m\e[38;5;70m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[38;5;244m\e[0m\e[38;5;244m\e[48;5;236m\e[48;5;236m\e[38;5;66m 22:04:31\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[48;5;236m\e[38;5;66m \e[49m\e[38;5;236m\e[0m\e[38;5;236m\e[48;5;236m\e[38;5;66m\e[0m\e[38;5;66m\e[48;5;236m\e[49m\e[39m\r\n\e[0m\e[49m\e[38;5;76m❯\e[0m\e[38;5;76m\e[49m\e[38;5;76m\e[0m\e[38;5;76m\e[49m\e[30m\e[0m\e[30m\e[49m\e[39m \e[0m\e[49m\e[39m\e[K\e[?1h\e=\e[?2004h"
+  - delay: 2487
+    content: "\e[?2004l\r\r\n"

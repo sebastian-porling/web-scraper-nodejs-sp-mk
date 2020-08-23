@@ -8,6 +8,10 @@ You can compile this by using `npm i`. By using `npm run build` you will make ex
 
 And execute by using `npm start` or running any of the binaries which can be found in the **/build** directory. If using linux to run you simply do the following from the root folder: `./build/web_scraper-linux`. But if you for some reason want to use only node to run the application you can do `node bin.js`. You can't run the [**index.js**](./index.js) because it doesn't have anything that executes the main function. This was done just to follow the how they do it in the [**pkg**](https://www.npmjs.com/package/pkg) package. They do this just to seperate all the compile and deploy logic away from the main files.
 
+Here is a sample execution generated with [terminalizer](https://terminalizer.com/):
+
+![Sample execution](./sample_execution.gif)
+
 ## :question: Motivation
 
 We decided to gather information from [presidents of the United States of America!](https://en.wikipedia.org/wiki/List_of_presidents_of_the_United_States)
