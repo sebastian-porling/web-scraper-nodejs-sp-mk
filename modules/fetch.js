@@ -2,7 +2,7 @@ const axios = require("axios");
 const PRESIDENT_LIST_PAGE = "/wiki/List_of_presidents_of_the_United_States";
 const WIKI_URL = "https://en.wikipedia.org";
 module.exports.PRESIDENT_LIST_PAGE = PRESIDENT_LIST_PAGE;
-
+const fetch = axios.create({ baseURL: WIKI_URL });
 /**
  * Fetches the USA president page on Wikipedia
  * @returns response
@@ -10,9 +10,9 @@ module.exports.PRESIDENT_LIST_PAGE = PRESIDENT_LIST_PAGE;
  */
 module.exports.getPresidents = async () => {
     try {
-        return await axios.get(WIKI_URL + PRESIDENT_LIST_PAGE);
+        return await fetch.get(PRESIDENT_LIST_PAGE);
     } catch (error) {
-        throw "Couln't fetch from " + WIKI_URL + PRESIDENT_LIST_PAGE;
+        throw `Couln't fetch from ${WIKI_URL + PRESIDENT_LIST_PAGE}`;
     }
 };
 
@@ -25,8 +25,8 @@ module.exports.getPresidents = async () => {
 module.exports.getPresident = async (PRESIDENT_PAGE) => {
     if (PRESIDENT_PAGE === undefined) throw "No president path given";
     try {
-        return await axios.get(WIKI_URL + PRESIDENT_PAGE);
+        return await fetch.get(PRESIDENT_PAGE);
     } catch (error) {
-        throw "Couldn't fetch from " + WIKI_URL + PRESIDENT_PAGE;
+        throw `Couldn't fetch from ${WIKI_URL + PRESIDENT_PAGE}`;
     }
 };

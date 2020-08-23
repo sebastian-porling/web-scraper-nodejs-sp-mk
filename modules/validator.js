@@ -1,6 +1,6 @@
 const validate = require("validate.js");
 const { presidentConstraints, infoConstraints } = require("./constraints.js");
-validate.options = {format: "flat"};
+validate.options = { format: "flat" };
 
 /**
  * Checks if the president object is valid
@@ -31,5 +31,5 @@ module.exports.validInfo = async (info) => {
 };
 
 module.exports.getErrors = async (errors) => {
-    return errors.reduce((concat, error) => concat+error+", ", "");
-}
+    return errors.reduce((concat, error) => concat + error + ", ", "");
+};

@@ -12,11 +12,11 @@ module.exports.presidentConstraints = {
     },
     img: {
         presence: true,
-        format: /^(\/wiki\/File\:.+)(\.(jpg|jpeg|tif))$/i
+        format: /^(\/wiki\/File\:.+)(\.(jpg|jpeg|tif))$/i,
     },
     link: {
         presence: true,
-        format: /^\/wiki\/.+/i
+        format: /^\/wiki\/.+/i,
     },
     party: {
         presence: true,
